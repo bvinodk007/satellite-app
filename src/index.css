@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    button {
+        @apply text-black border bg-amber-500 border-amber-500
+        hover:bg-transparent hover:text-amber-500
+    }
+}
