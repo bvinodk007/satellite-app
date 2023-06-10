@@ -1,4 +1,4 @@
-const Home = () => {
+const Today = () => {
     const DUMMY_DATA = [
         {
             type: 'UNKNOWN',
@@ -196,7 +196,7 @@ const Home = () => {
         }
     ]
     return (
-        <div className="auto flex px-[30px] pb-[65px] gap-8">
+        <div className="auto flex m-7 pb-[65px] gap-8">
             <div className="w-1/4">
                 <p className="mt-8 ml-0 mb-2 text-sm">302,489 results</p>
                 <div className="bg-neutral-900 border border-neutral-700 px-3 py-5">
@@ -247,4 +247,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Today

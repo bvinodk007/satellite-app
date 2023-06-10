@@ -8,7 +8,7 @@ const Homepage = () => {
                 <p className='text-5xl text-zinc-400 tracking-[2rem] p-[40px]'>SATELLITE</p>
                 <span className='pt-[40px]'><input type="text" className='w-[1000px] h-[60px] text-xs text-zinc-800 border border-neutral-800 pl-8 bg-neutral-900' placeholder='Search for IP Addresses, CVEs, Tags...' /></span>
             </div>
-            <p className="text-sm text-neutral-400">Today's top Anomalies:</p>
+            <p className="text-sm text-neutral-400 ml-[200px] pt-4">Today's top Anomalies:</p>
             
         </div>
     )
