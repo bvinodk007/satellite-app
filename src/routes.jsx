@@ -9,6 +9,7 @@ import Alerts from './pages/alerts-page'
 import Tags from './pages/tags-page'
 import Analysis from './pages/analysis-page'
 import ForgotPassword from './pages/forgot-password'
+import LandingPage from './pages/landing-page'
 
 export const routes = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ export const routes = createBrowserRouter([
         children: [
             {
                 path: '/',
+                element: <LandingPage />
+            },
+            {
+                path: '/home',
                 element: <Homepage />
             },
             {
